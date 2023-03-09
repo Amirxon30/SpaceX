@@ -1,0 +1,148 @@
+@font-face{
+    font-family: Roboto-regular;
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+@font-face{
+    font-family: Roboto-light;
+    src: url(../fonts/Roboto-light.ttf);
+}
+@font-face{
+    font-family: Roboto-bold;
+    src: url(../fonts/Roboto-Bold.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    display: inline-block;
+    padding: 0px 200px;
+}
+.navbar{
+    width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 104px;
+}
+.navbar ul{
+    display: flex;
+    gap: 20px;
+    font-family: Roboto-regular;
+    font-size: 15px;
+}
+.navbar ul li{
+    list-style: none;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #ffff;
+}
+.navbar_contacts ul li a{
+    color:#808080;
+}
+.header_title{
+    width: 100%;
+    height: 280px;
+    color: #ffff;
+    text-align: center;
+    padding-top: 122px;
+}
+.header_title h1{
+    font-size: 67px;
+    font-family: Roboto-Regular;
+}
+.header_title p{
+    padding-top: 26px;
+    font-family: Roboto-light;
+    font-size: 19px;
+}
+.main_background{
+    border: 2px solid;
+    width: 100%;
+    height: 1006px;
+    background-image: url(../media/earth.png);
+    background-position: center;
+}
+.falcon{
+    height: 1730px;
+    display: flex;
+    color: #ffff;
+}
+.falcon-overview{
+    margin-top: 492px;
+    gap: 130px;
+}
+.falcon_title, .falcon_title2{
+    font-family: Roboto-bold;
+    font-size: 34px;
+}
+.falcon_overview_desc{
+    margin-top: 45px;
+    display: flex;
+    gap: 130px;
+    font-size: 18px;
+    font-family: Roboto-regular;
+}
+.falcon_performance{
+    margin-top: 218px;
+}
+.falcon_desc2{
+    margin-top: 45px;
+    font-size: 20px;
+    font-family: Roboto-regular;
+}
+.falcon_desc_part1 p{
+    padding-bottom: 11px;
+}
+.falcon_desc_part2 p{
+    padding-bottom: 11px;
+}
+.falcon_desc_part2 span{
+    color: #B2B0B2;
+}
+.falcon_img img{
+    margin-left: 260px;
+}
+.footer_navbar{
+    height: 534px;
+    padding-top: 189px;
+    text-align: center;
+}
+.footer_navbar ul{
+    display: flex;
+    gap: 20px;
+    font-size: 18px;
+    justify-content: center;
+    padding-top: 43px;
+    padding-bottom: 28px;
+}
+.footer_navbar ul li{
+    list-style: none;
+}
+.footer_navbar ul li a{
+    text-decoration: none;
+    color: #ffff;
+}
+.footer_navbar_mail{
+    color: #808080;
+    padding-bottom: 60px;
+    font-size: 15px;
+}
+#footer_navbar_btn{
+    text-decoration: none;
+    padding: 20px 87px;
+    color: #ffff;
+    border: 2px solid #ffff;
+    border-radius: 6px;
+    background-color: black;
+    font-size: 15px;
+}
+.footer_navbar ul li a, .footer_navbar_mail, #footer_navbar_btn{
+    font-family: Roboto-regular;
+}
